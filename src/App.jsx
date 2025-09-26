@@ -58,6 +58,14 @@ const [current, setCurrent] = useState(0);
 const [expanded, setExpanded] = useState(false);
 const publicationsData = [
   {
+    title: "Water-driven granulation control of rapid-setting binders to produce cold-bonded phase-change aggregates for thermal storage composite building materials",
+    authors: "Charai, M., Oubaha, S., Ait Laasri, I., Es-sakali, N., & Mghazli, M. O. (2025)",
+    journal: "Journal of Energy Storage",
+    abstract: "This study introduces a novel gypsum-to-gypsum concept that enables the seamless integration of thermal storage functionality into gypsum boards using cold-bonded gypsum aggregates (CBAs) as PCM carriers. Herein, the PCM selected, technical-grade paraffin, exhibited a melting point of ~28 °C, suitable for semi-arid building envelope applications. A reproducible water-controlled granulation method was developed to address the rapid setting behavior of gypsum, comparing intermittent water spraying and continuous linear feeding. The latter demonstrated superior granulation performance, achieving ~95 % yield with over 40 wt% of granules within the target 4–8 mm size range. Optimal granule formation occurred at water-to-binder ratios between 19.8 and 22.2 %. Sodium bicarbonate foaming was found to increase total porosity (46.5 to 52.1 %) and decrease loose density (821 to 699 kg/m3), but simultaneously reduced accessible porosity (35.4 to 28.8 %), thereby limiting PCM impregnation. Non-foamed CBAs achieved the highest PCM uptake (28.4 wt%) following vacuum impregnation at 120 °C for 30 min, yielding form-stable composites with a latent heat capacity of 71.4 J/g. Gypsum boards incorporating 40 vol% CBAs met the EN 13279-1 standard, identifying this substitution level as optimal. This formulation also showed improved acoustic performance, with a peak sound absorption coefficient of 0.6 at 1 kHz. Field testing conducted in a rooftop test cell under semi-arid climate conditions showed that PCM-enhanced boards reduced indoor surface temperatures by up to 10 °C and delayed peak heat transfer. Post-exposure DSC confirmed the PCM retained its phase change performance. Deployable on existing manufacturing workflows, the proposed process can offer a scalable pathway for producing phase-change gypsum boards.",
+    link: "https://www.sciencedirect.com/science/article/pii/S2352152X25031111",
+    image: "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X25031111-ga1_lrg.jpg"
+  },
+  {
     title: "Evaluating passive PCM performance in building envelopes for semi-arid climate: Experimental and numerical insights on hysteresis, sub-cooling, and energy savings",
     authors: "Ait Laasri, I., Charai, M., Es-sakali, N., Mghazli, M. O., & Outzourhit, A. (2024)",
     journal: "Journal of Building Engineering",
