@@ -930,7 +930,7 @@ const paper = publicationsData[current];
     {[
       {
         type: "Location",
-        value: "Green Energy Park (UM6P/IRESEN), Benguerir, Morocco",
+        value: "GEP/UM6P, Benguerir, Morocco",
         icon: "📍",
       },
       {
