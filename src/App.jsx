@@ -37,7 +37,7 @@ import {
   BookOpen,
   Power
 } from "lucide-react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // ==========================================
 // CONFIG & DATA
