@@ -424,7 +424,7 @@ const BrowserApp = ({ systemSettings }) => {
 
     const goHome = () => { setView('home'); setUrlBar('http://research-hub.imad-os.net'); }
     const goGame = () => { setView('game'); setUrlBar('http://sim.imad-os.net/eco-hvac'); }
-    const goSim = () => { setView('sim'); setUrlBar('https://home.gsbpvn1.work/'); }
+    const goSim = () => { setView('sim'); setUrlBar('https://thermalsim.gsbpvn1.work/'); }
     
     // Trigger Warning
     const requestExternal = (url) => setWarningUrl(url);
@@ -493,7 +493,7 @@ const BrowserApp = ({ systemSettings }) => {
                 {view === 'game' && <HVACGame />}
                 
                 {view === 'sim' && (
-                    <iframe src="https://home.gsbpvn1.work/" className="w-full h-full border-none" title="Building Sim"/>
+                    <iframe src="https://thermalsim.gsbpvn1.work/" className="w-full h-full border-none" title="Building Sim"/>
                 )}
             </div>
         </div>
@@ -504,13 +504,13 @@ const BrowserApp = ({ systemSettings }) => {
 const BuildingSimApp = () => (
     <div className="h-full flex flex-col bg-black">
         <div className="flex items-center justify-between p-1 bg-[#c0c0c0] border-b border-gray-600">
-             <div className="text-xs font-mono">Connected: home.gsbpvn1.work</div>
+             <div className="text-xs font-mono">Connected: thermalsim.gsbpvn1.work</div>
              <div className="flex gap-1">
                  <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
              </div>
         </div>
         <iframe 
-            src="https://home.gsbpvn1.work/" 
+            src="https://thermalsim.gsbpvn1.work/" 
             className="flex-1 w-full border-none bg-white"
             title="Building Simulation"
         />
