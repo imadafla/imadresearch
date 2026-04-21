@@ -1146,7 +1146,7 @@ export default function App() {
   const [chatMessages, setChatMessages] = useState([{ role: 'system', text: 'ImadBot AI Online. Ready to discuss research.' }]);
 
   const sections = ["home", "summary", "experience", "education", "certifications", "skills", "languages", "publications", "contact"];
-  const heroSocials = [{ href: "https://www.linkedin.com/in/imadaitlaasri/", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png", text: "LinkedIn" }, { href: "https://orcid.org/0000-0002-3977-5490", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/ORCID_logo.svg/960px-ORCID_logo.svg.png", text: "ORCID" }, { href: "https://www.researchgate.net/profile/Imad-Ait-Laasri", src: "https://upload.wikimedia.org/wikipedia/commons/a/aa/ResearchGate_Logo.png", text: "ResearchGate" }];
+  const heroSocials = [{ href: "https://www.linkedin.com/in/imadaitlaasri/", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png", text: "LinkedIn" }, { href: "https://orcid.org/0000-0002-3977-5490", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/ORCID_logo.svg/960px-ORCID_logo.svg.png", text: "ORCID" }, { href: "https://www.researchgate.net/profile/Imad-Ait-Laasri", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ResearchGate_icon_SVG.svg/1280px-ResearchGate_icon_SVG.svg.png", text: "ResearchGate" }];
 
   // 1. CLOUDFLARE ANALYTICS INJECTION
   useEffect(() => {
