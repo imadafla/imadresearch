@@ -137,7 +137,7 @@ const publicationsData = [
 const simulationTools = [
     { name: "EnergyPlus", logo: "https://energyplus.net/assets/images/eplus_logo.png" },
     { name: "OpenStudio", logo: "https://openstudiocoalition.org/img/OpenStudio+Coalition-logo-crop.png" },
-    { name: "COMSOL", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Comsol_logo.svg/2560px-Comsol_logo.svg.png" },
+    { name: "COMSOL", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Comsol_logo.svg/1280px-Comsol_logo.svg.png" },
     { name: "SketchUp", logo: "https://www.sketchupaustralia.com.au/wp-content/uploads/SketchUp-Mark-1200pxl-RGB.png" },
     { name: "Rhino", logo: "https://www.clipartmax.com/png/middle/342-3424718_rhino-3d-logo-png.png" },
     { name: "Grasshopper", logo: "https://images.seeklogo.com/logo-png/29/1/grasshopper-3d-logo-png_seeklogo-291372.png" },
@@ -145,7 +145,7 @@ const simulationTools = [
     { name: "Honeybee", logo: "https://www.clipartmax.com/png/full/71-719603_honeybee-ladybug-grasshopper-logo.png" },
     { name: "AutoCAD", logo: "https://images.seeklogo.com/logo-png/48/2/autocad-logo-png_seeklogo-482394.png" },
     { name: "Solidworks", logo: "https://img.icons8.com/color/512/solidworks.png" },
-    { name: "ANSYS", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ansys_logo_%282019%29.svg/855px-Ansys_logo_%282019%29.svg.png" },
+    { name: "ANSYS", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/ANSYS_logo.png" },
     { name: "TRNSYS", logo: "https://usoftly.ir/wp-content/uploads/2024/02/TRNSYS-18.02.png" },
     { name: "DesignBuilder", logo: "https://designbuilder.co.uk/templates/r_explorer/custom/images/DesignBuilder-logo.png" },
     { name: "LabView", logo: "https://www.livewires-automation.co.uk/uploads/images/section-widget-images/NI-LabVIEW-Logo.png" },
@@ -1146,7 +1146,7 @@ export default function App() {
   const [chatMessages, setChatMessages] = useState([{ role: 'system', text: 'ImadBot AI Online. Ready to discuss research.' }]);
 
   const sections = ["home", "summary", "experience", "education", "certifications", "skills", "languages", "publications", "contact"];
-  const heroSocials = [{ href: "https://www.linkedin.com/in/imadaitlaasri/", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png", text: "LinkedIn" }, { href: "https://orcid.org/0000-0002-3977-5490", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/2048px-ORCID_iD.svg.png", text: "ORCID" }, { href: "https://www.researchgate.net/profile/Imad-Ait-Laasri", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/ResearchGate_icon_SVG.svg/2048px-ResearchGate_icon_SVG.svg.png", text: "ResearchGate" }];
+  const heroSocials = [{ href: "https://www.linkedin.com/in/imadaitlaasri/", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png", text: "LinkedIn" }, { href: "https://orcid.org/0000-0002-3977-5490", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/ORCID_logo.svg/960px-ORCID_logo.svg.png", text: "ORCID" }, { href: "https://www.researchgate.net/profile/Imad-Ait-Laasri", src: "https://upload.wikimedia.org/wikipedia/commons/a/aa/ResearchGate_Logo.png", text: "ResearchGate" }];
 
   // 1. CLOUDFLARE ANALYTICS INJECTION
   useEffect(() => {
@@ -1334,7 +1334,7 @@ export default function App() {
       {/* Stats */}
       <div className="bg-white dark:bg-slate-900 border-y border-slate-200 dark:border-slate-800 py-16 relative z-20">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-slate-100 dark:divide-slate-800">
-          {[{ label: "Years Experience", value: "4+" }, { label: "Publications", value: "20+" }, { label: "Projects", value: "10+" }, { label: "Teaching Roles", value: "3+" }].map((stat, idx) => (<div key={idx} className="flex flex-col items-center group cursor-default"><span className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-purple-600 transition-transform group-hover:scale-110 duration-300 inline-block">{stat.value}</span><span className="text-sm font-bold text-slate-500 dark:text-slate-400 mt-2 uppercase tracking-widest">{stat.label}</span></div>))}
+          {[{ label: "Years Experience", value: "5+" }, { label: "Publications", value: "30+" }, { label: "Projects", value: "10+" }, { label: "Teaching Roles", value: "3+" }].map((stat, idx) => (<div key={idx} className="flex flex-col items-center group cursor-default"><span className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-purple-600 transition-transform group-hover:scale-110 duration-300 inline-block">{stat.value}</span><span className="text-sm font-bold text-slate-500 dark:text-slate-400 mt-2 uppercase tracking-widest">{stat.label}</span></div>))}
         </div>
       </div>
 
@@ -1345,7 +1345,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 relative z-10">
           <SectionHeader title="Scientific Summary" subtitle="Bridging advanced simulation with experimental reality." />
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="flex-1 space-y-6" data-aos="fade-right"><p className="text-lg md:text-xl text-slate-700 dark:text-slate-300 leading-relaxed text-justify">I am a researcher in innovative energy systems and sustainable building materials, specializing in PCM-based thermal storage, HVAC optimization, and adaptive building technologies. My work integrates experimental testing, AI-driven simulations, and smart control strategies to improve energy efficiency and indoor comfort. I hold a PhD in Energy, Thermal & Sustainable Building Technology, have led the creation of a DHW and HVAC performance lab, taught graduate courses, published 20+ peer-reviewed papers, and actively collaborate in international academic and industrial networks.</p></div>
+            <div className="flex-1 space-y-6" data-aos="fade-right"><p className="text-lg md:text-xl text-slate-700 dark:text-slate-300 leading-relaxed text-justify">I am a researcher in innovative energy systems and sustainable building materials, specializing in PCM-based thermal storage, HVAC optimization, and adaptive building technologies. My work integrates experimental testing, AI-driven simulations, and smart control strategies to improve energy efficiency and indoor comfort. I hold a PhD in Energy, Thermal & Sustainable Building Technology, have led the creation of a DHW and HVAC performance lab, taught graduate courses, published 30+ peer-reviewed papers, and actively collaborate in international academic and industrial networks.</p></div>
             <div className="flex-1 flex justify-center md:justify-end" data-aos="fade-left"><img src="/smart_energy_efficiency.png" alt="Smart Energy Efficiency" className="w-full max-w-sm drop-shadow-xl" /></div>
           </div>
           <div className="flex flex-wrap justify-center gap-6 mt-16" data-aos="fade-up">
